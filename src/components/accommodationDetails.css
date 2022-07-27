@@ -1,0 +1,63 @@
+.accommodation-details {
+  padding: 32px 90px 100px 90px;
+}
+
+.accommodation-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 153px;
+}
+
+.accommodation-header {
+  width: 100%;
+}
+
+.accommodation-title {
+  display: flex;
+  margin-top: 32px;
+  place-items: center;
+}
+
+.accommodation-title p {
+  font-size: 34px;
+  line-height: 120%;
+  letter-spacing: 0.25px;
+  margin-right: 22px;
+}
+
+.accommodation-subtitle {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: #7c7c7c;
+  margin-top: 12px;
+}
+
+.accommodation-cancelation {
+  margin: 42px 0;
+  display: flex;
+  place-items: center;
+  color: #1A3440;
+}
+
+.accommodation-cancelation p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: #1a3440;
+  margin-left: 17.33px;
+}
+
+.accommodation-description {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: #1a3440;
+}
+
+@media screen and (max-width: 930px) {
+  .accommodation-content {
+    display: block;
+  }
+}
